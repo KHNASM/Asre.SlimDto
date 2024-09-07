@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Asre.SlimDto</Title>
+    <Authors>Asim al Asre</Authors>
+    <Company>Asim al Asre</Company>
+    <Description>Asre.SlimDto is a lightweight and efficient C# library designed to dynamically filter properties of DTOs using custom attributes. It simplifies the process of exposing only the required properties by marking them with the [SlimCandidate] attribute, eliminating the need for manual DTO creation. With built-in caching, asynchronous support, and collection handling, Asre.SlimDto is optimized for high-performance and scalable applications, such as web APIs. Easily integrate it into your ASP.NET Core application by registering the FilterService as a singleton in the Dependency Injection container.</Description>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/khnasm/Slim.Dto</RepositoryUrl>
+    <IncludeSymbols>True</IncludeSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

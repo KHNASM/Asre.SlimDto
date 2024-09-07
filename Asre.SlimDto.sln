@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asre.SlimDto", "Asre.SlimDto.csproj", "{B95C1CFB-382B-4E08-B48B-0B4A1555592D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asre.SlimDto.Tests", "..\Asre.SlimDto.Tests\Asre.SlimDto.Tests.csproj", "{A1AD0768-D9B9-40C0-BBB1-B278C875C663}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B95C1CFB-382B-4E08-B48B-0B4A1555592D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95C1CFB-382B-4E08-B48B-0B4A1555592D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95C1CFB-382B-4E08-B48B-0B4A1555592D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95C1CFB-382B-4E08-B48B-0B4A1555592D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1AD0768-D9B9-40C0-BBB1-B278C875C663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AD0768-D9B9-40C0-BBB1-B278C875C663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AD0768-D9B9-40C0-BBB1-B278C875C663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AD0768-D9B9-40C0-BBB1-B278C875C663}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33AF101B-35ED-4E5D-BD38-B53AE7A90E76}
+	EndGlobalSection
+EndGlobal
